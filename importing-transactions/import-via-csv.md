@@ -61,7 +61,7 @@ As of now, these 4 columns are the only ones that you're able to import using CS
 
 If this is your first time using the CSV import tool, we recommend that you only import one month's worth of transactions to start. Then, go to the Transactions page and categorize and organize your transactions as you please. As you do this, Rules will be created to remember your changes and apply them to future similar transactions. You can always go to the Rules page to audit these and make sure they are accurate.
 
-When you go back to the CSV import tool and upload a second month's worth of transactions, you'll notice in **Step 4: Review Transactions** that many of them will already be edited because you had rules set up from your first month! By uploading transactions in small batches, the less work you end up doing in the long run because your rules will get continuously refined. If you upload a year's worth in one go, you might get overwhelmed quickly.
+When you go back to the CSV import tool and upload a second month's worth of transactions, you'll notice in [**Step 4: Review Transactions**](import-via-csv.md#step-4-review-transactions) that many of them will already be edited because you had rules set up from your first month! By uploading transactions in small batches, the less work you end up doing in the long run because your rules will get continuously refined. If you upload a year's worth in one go, you might get overwhelmed quickly.
 
 ## Step 1: Upload CSV
 
