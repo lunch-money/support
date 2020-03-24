@@ -20,7 +20,7 @@ This is most likely related to a multi-factor authentication setting that you ha
 
 ### Why am I not seeing any transactions for my brokerage/investment accounts?
 
-We're currently not able to get transactions for brokerage/investment accounts. We may be able to get the latest balance if the institution your account is associated with is not deemed an "investment-only account". If it is, then we suggest creating a manually-managed asset to track the balance yourself.
+We're currently not able to get transactions for brokerage/investment accounts. We may be able to get the latest balance if the institution your account is associated with is not deemed an "investment-only bank". If it is, then we suggest creating a manually-managed asset to track the balance yourself.
 
-The reason for this is simply because fetching transactions for brokerage/investment accounts costs  more money. At this point, we are choosing to focus mainly on tracking expenses and we are not pursuing to become an investment or portfolio tracking app.
+The reason for this is simply because fetching transactions for brokerage/investment accounts costs  us much more money. At this point, we are choosing to focus mainly on tracking expenses and we are not pursuing to become an investment or portfolio tracking app.
 
