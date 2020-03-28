@@ -16,8 +16,7 @@ With this file, you can import your transactions into Lunch Money quickly and ea
 
 ### How do I download my transactions?
 
-For a quick guide on how to export transactions from your Apple Card, [click here](https://techcrunch.com/2020/01/21/apple-card-users-can-now-download-monthly-transactions-in-a-spreadsheet/).  
-For a quick guide on how to export your transactions from Capital One, click here.
+For a quick guide on how to export transactions from your Apple Card, [click here](https://techcrunch.com/2020/01/21/apple-card-users-can-now-download-monthly-transactions-in-a-spreadsheet/).
 
 If your bank allows it, there will typically be a way to download a CSV version of your statements or transactions between a certain date range within your bank's web portal. Try searching in the area where you can download statements. If you need help locating this, you may need to contact your bank.
 
