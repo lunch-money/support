@@ -44,17 +44,13 @@ The rule effect determines how a transaction which means the rule criteria will 
 
 ## Rule creation
 
-A rule can be created in various ways.
+A rule can be created in various ways:
 
-A category rule is automatically created with a “match exactly” rule whenever you change the category of a transaction. This can be turned off in the Settings.
-
-A suggested category rule is automatically created when you rename a payee.
-
-When you edit a transaction, you'll also be presented with an option to create a new rule based on the changes you just made. You can always edit these later in Rules.
-
-When a new recurring expense is created, a system rule is automatically created to match transactions to recurring expenses. We do not recommend editing or deleting these, but the option is there if you need to make some adjustments to ensure they match your recurring transactions.
-
-Lastly, you can create a new rule manually by clicking “Add a new rule” in the Rules page.
+1. A category rule is automatically created with a “match exactly” rule whenever you change the category of a transaction. This can be turned off in the Settings.
+2. A suggested rule is automatically created when you rename a payee.
+3. When you edit a transaction, you'll also be presented with an option to create a new rule based on the changes you just made. You can always edit these later in Rules.
+4. When a new recurring expense is created, a system rule is automatically created to match transactions to recurring expenses. We do not recommend editing or deleting these, but the option is there if you need to make some adjustments to ensure they match your recurring transactions.
+5. Lastly, you can create a new rule manually by clicking “Add a new rule” in the Rules page.
 
 ## Applying rules
 

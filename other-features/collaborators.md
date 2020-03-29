@@ -4,5 +4,5 @@ Collaborate on a budget with your partner on Lunch Money! When you collaborate o
 
 You can collaborate with any number of people on a budget. The price you pay is per budget, not per person.
 
-To invite someone to collaborate on a budget, go to _Setup_ and then _Settings_. Under the _Collaborators_ card, enter their email address to send them an invite link.
+To invite someone to collaborate on a budget, go to _Settings_. Under the _Collaborators_ card, enter their email address to send them an invite link.
 
