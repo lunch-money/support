@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-* [FAQ](faq-1.md)
+* [FAQ](faq.md)
 
 ## Importing Transactions
 
