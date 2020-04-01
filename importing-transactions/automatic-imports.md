@@ -12,6 +12,8 @@ We'd love to integrate with international banks for automatic imports, but unfor
 
 Our highest priority right now is connecting to European and Australian banks for automatic imports. We're actively working with a number of data providers and waiting patiently for them to work with local regulators and hopefully pave the way for us one day to support our international users with automatic imports.
 
+In the meantime, we have a [developer API ](https://developers.lunchmoney.app)which we're hoping will bridge the gap between Lunch Money & international banks. We already have a few European banks supported via community-made open source plugins such as [bunq](https://github.com/markjongkind/bunq-to-lunchmoney) and [Monzo](https://github.com/joehoyle/monzo-to-lunch-money)!
+
 ## FAQ
 
 ### Why does my account keep requiring me to relink/re-authenticate?
