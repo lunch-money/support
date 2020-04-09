@@ -40,3 +40,5 @@ Balance and transactions are fetched automatically when we receive a notice via 
 
 This operation is also automatically triggered if you go to the Transactions page and we determine that it's been over 12 hours since we last fetch transactions for your accounts.
 
+You can get more information on when we last fetched transactions & balances for your accounts from the [Accounts](https://my.lunchmoney.app/accounts) page.
+
