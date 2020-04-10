@@ -11,7 +11,6 @@
 
 ## Other Features
 
-* [Untitled](other-features/untitled.md)
 * [Collaborators](other-features/collaborators.md)
 * [Rules](other-features/rules.md)
 * [Multicurrency](other-features/multicurrency.md)
