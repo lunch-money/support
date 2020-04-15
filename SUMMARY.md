@@ -12,10 +12,13 @@
 ## Other Features
 
 * [Collaborators](other-features/collaborators.md)
-* [Rules](other-features/rules.md)
+* [Linked Accounts](other-features/linked-accounts.md)
 * [Multicurrency](other-features/multicurrency.md)
+* [Rules](other-features/rules.md)
+* [Transactions](other-features/transactions.md)
 
 ## Billing
 
 * [Payment Methods](billing/payment-methods.md)
+* [Untitled](untitled.md)
 
