@@ -20,5 +20,4 @@
 ## Billing
 
 * [Payment Methods](billing/payment-methods.md)
-* [Untitled](untitled.md)
 
