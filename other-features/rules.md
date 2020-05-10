@@ -42,6 +42,8 @@ The rule effect determines how a transaction which means the rule criteria will 
 * Link to a recurring expense
 * Mark as reviewed
 
+You may also use a rule to split a transaction. Note that splitting and updating the original transaction properties are mutually exclusive!
+
 ## Rule creation
 
 A rule can be created in various ways:
