@@ -9,15 +9,21 @@
 * [CSV Importing](importing-transactions/import-via-csv.md)
 * [Developer API](importing-transactions/developer-api.md)
 
-## Other Features
+## Finances
 
-* [Collaborators](other-features/collaborators.md)
-* [Linked Accounts](other-features/linked-accounts.md)
-* [Multicurrency](other-features/multicurrency.md)
-* [Rules](other-features/rules.md)
-* [Transactions](other-features/transactions.md)
+* [Transactions](finances/transactions.md)
+* [Recurring Expenses](finances/recurring-expenses.md)
 
-## Billing
+## Setup
 
-* [Payment Methods](billing/payment-methods.md)
+* [Linked Accounts](setup/linked-accounts.md)
+* [Rules](setup/rules.md)
+* [Tags](setup/tags.md)
+* [Categories](setup/categories.md)
+
+## Settings
+
+* [Collaborators](settings/collaborators.md)
+* [Multicurrency](settings/multicurrency.md)
+* [Payment Methods](settings/payment-methods.md)
 
