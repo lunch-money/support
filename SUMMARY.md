@@ -16,10 +16,10 @@
 
 ## Setup
 
-* [Linked Accounts](setup/linked-accounts.md)
-* [Rules](setup/rules.md)
+* [Accounts](setup/linked-accounts.md)
 * [Tags](setup/tags.md)
 * [Categories](setup/categories.md)
+* [Rules](setup/rules.md)
 
 ## Settings
 

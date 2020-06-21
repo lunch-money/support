@@ -16,7 +16,7 @@ Finally, we're committed to maintaining high quality and usability levels for al
 
 There are a few ways to initiate the complete deletion of your account and all its data from our servers.
 
-First, there is a cancellation flow from the Billing details under the Settings page. 
+First, there is a cancellation flow from the [Billing](https://my.lunchmoney.app/billing) page. 
 
 Second, all accounts that are 5 days past their trial expiration dates which do not have any billing information associated will automatically be purged.
 

@@ -1,4 +1,4 @@
-# Linked Accounts
+# Accounts
 
 ## My partner and I have joint accounts and they are showing up twice with duplicate transactions. How do I handle this?
 
