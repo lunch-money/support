@@ -17,7 +17,7 @@ You can manually create transactions by clicking the "Add to Cash" button. "Cash
 There are also options to create transactions with specific properties:
 
 1. **Create Transfer** can be used to represent the transfer of money from one manually-managed asset to another. Under the hood, this creates an expense for the originating account and a credit for the destination account, and groups them together so they show up as a net $0. This operation will also update the balance for associated accounts.
-2. **Create from Recurring** can be used to automatically create a transaction linked to an existing recurring expense. \(For more details on recurring transactions, check [here](recurring-expenses.md#recurring-transactions)\)
+2. **Create from Recurring** can be used to automatically create a transaction linked to an existing recurring expense. \(For more details on recurring transactions, check [here](recurring-items.md#recurring-transactions)\)
 
 ## How do I handle the case where others pay me back for a large bill that I paid for?
 

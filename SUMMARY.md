@@ -12,7 +12,7 @@
 ## Finances
 
 * [Transactions](finances/transactions.md)
-* [Recurring Expenses](finances/recurring-expenses.md)
+* [Recurring Items](finances/recurring-items.md)
 
 ## Setup
 
