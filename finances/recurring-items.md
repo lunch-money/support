@@ -27,7 +27,7 @@ For example, if you created a new monthly recurring expense for "Pat's Gym" at $
 ![](../.gitbook/assets/screen-shot-2020-06-20-at-2.24.56-pm.png)
 
 {% hint style="info" %}
-Recurring items don't always the same amount every month. As you create your recurring item, you'll be asked if this is a fluctuating item or fixed. You can always edit any rules later on to change these properties if you wish.
+Recurring items aren't always the same amount every month. As you create your recurring item, you'll be asked if this is a fluctuating item or fixed. You can always edit any rules later on to change these properties if you wish.
 {% endhint %}
 
 ## Properties of Recurring Items
