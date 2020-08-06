@@ -62,3 +62,5 @@ When editing a transaction whose payee name matches many others, you have the op
 
 You also have the option to apply rules retroactively via the “Apply” button next to each rule in the Rule page. Before applying, Lunch Money will let you know which transactions will be updated with the option of de-selecting some.
 
+### Rule Priority
+Rules are additive and will be applied in priority order with 10 being the least important and 1 being the most important. For example, suppose there are 2 rules that both update a transaction's "Payee Name". The rule with priority 10 will be overridden by the rule with priority 1, since it is less important.
