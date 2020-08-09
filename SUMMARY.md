@@ -27,3 +27,7 @@
 * [Multicurrency](settings/multicurrency.md)
 * [Payment Methods](settings/payment-methods.md)
 
+## Miscellaneous
+
+* [Referral Program](miscellaneous/referral-program.md)
+

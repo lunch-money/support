@@ -20,7 +20,7 @@ If you use bank syncing or CSV imports, Lunch Money will automatically detect mo
 
 ### Integration with Rules
 
-When a new recurring item is created, a corresponding rule is automatically created. This rule helps Lunch Money identify future transactions to be recurring expenses. 
+When a new recurring item is created, a corresponding rule is automatically created. This rule helps Lunch Money identify future transactions to be recurring expenses.
 
 For example, if you created a new monthly recurring expense for "Pat's Gym" at $30 a month with the expected billing date to be around the 3rd of every month, then a rule will be created to match transactions that are expenses of $30 with the merchant name "Pat's Gym" occurring between the 1st and 5th of the month. The range in days is because sometimes these recurring expenses can be posted to your account with a slight time variance.
 
@@ -50,7 +50,7 @@ In this example, let us say today is June 15. This is important because the stat
 
 The **green checkmark** represents that a transaction has been linked to June's payment for Netflix. If this transaction occurred on a date different from the expected billing date, then Billing Day will update to reflect the actual transaction's date.
 
-The **yellow warning** represents that a recurring item's expected billing date has passed, but no transaction has been linked. This indicates a potential issue that you should look into! 
+The **yellow warning** represents that a recurring item's expected billing date has passed, but no transaction has been linked. This indicates a potential issue that you should look into!
 
 The **grey clock** represents that a recurring item's expected billing date is in the future, so there's no need to worry about its status at this point.
 
@@ -64,7 +64,7 @@ On the flip side, if you terminated your Netflix subscription in June 2020, then
 
 ## Recurring Transactions
 
-The relationship between Transactions and Recurring Items in Lunch Money is important to understand. In Lunch Money, transactions are represent a singular expense or income to a particular account. A transaction can be linked to a recurring item, which means that transaction represents that month's payment for the recurring item. 
+The relationship between Transactions and Recurring Items in Lunch Money is important to understand. In Lunch Money, transactions are represent a singular expense or income to a particular account. A transaction can be linked to a recurring item, which means that transaction represents that month's payment for the recurring item.
 
 Once a transaction is linked to a recurring item, it cannot be further split or grouped. A recurring transaction will be in its final form and will inherit the same merchant name and description as set in the Recurring Items page.
 
@@ -76,7 +76,7 @@ While you can't split or group a recurring expense, you can always link a split 
 
 ### Creating recurring transactions
 
-Once you have created your recurring item from the Recurring Expense page, you may want to manually create transactions linked to these recurring items. 
+Once you have created your recurring item from the Recurring Expense page, you may want to manually create transactions linked to these recurring items.
 
 The "Create from Recurring" feature will allow you to quickly create recurring transactions for recurring items that haven't been paid yet for the month.
 
