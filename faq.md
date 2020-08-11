@@ -2,15 +2,13 @@
 
 ## Are there plans for a mobile app?
 
-We don't currently have concrete development plans for a mobile app but rest assured we will have a mobile solution one day. 
+We don't currently have concrete development plans for a mobile app.
 
-Lunch Money is maintained by a one-woman team, and right now, we're focused on rounding out the product through improvements and new features based on user feedback. Our current strength is our speed of development and iteration. Once we start supporting more than one platform, development will be slowed down. Therefore, it's imperative that we focus mainly on improving the product so that when we do eventually support a mobile app, we can be sure we're creating a mobile app based on a fully fleshed-out product.
+Lunch Money is maintained by a one-woman team, and right now, we're focused on rounding out the product through improvements and new features based on user feedback. We're committed to maintaining high quality and usability on Lunch Money! Our current strength is our speed of development and iteration. Once we start supporting more than one platform, development will be slowed down. Therefore, it's imperative that we focus mainly on improving the product so that when and if we do eventually support a mobile app, we can be sure we're creating a mobile app based on a fully fleshed-out product.
 
-We also understand that a mobile app is important to our users! It is one of our most highly-requested features. For full transparency, a mobile app roll out will likely start with a companion app for inputting cash transactions is the first priority and then support for reviewing transactions.
+We understand that a mobile solution is important to our users! It is one of our most highly-requested features. For full transparency, we are likely going to spend time on creating a Lunch Money PWA before considering a native mobile app.
 
-As an alternative, we have a [developer API ](https://developers.lunchmoney.app)which you can use to create your own companion app in the meantime!
-
-Finally, we're committed to maintaining high quality and usability levels for all the platforms we will eventually support.
+As an alternative, we have a [developer API ](https://developers.lunchmoney.app)which you can use to create your own companion app in the meantime! There is a currently a project started: [https://github.com/yuanworks/bento-money](https://github.com/yuanworks/bento-money)
 
 ## How do I delete my account?
 
