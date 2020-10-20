@@ -54,3 +54,9 @@ We're currently not able to get transactions for brokerage/investment accounts. 
 
 The reason for this is simply because fetching transactions for brokerage/investment accounts costs  us much more money. At this point, we are choosing to focus mainly on tracking expenses and we are not pursuing to become an investment or portfolio tracking app.
 
+### My institution is not listed.
+
+Unfortunately, we don't have control over which institutions are supported by Plaid. 
+
+According to Plaid, they are not currently prioritizing new institution builds. Their recommendation is to reach out to your financial institution on their behalf and ask them to submit a contact request via [https://plaid.com/plaid-exchange/](https://plaid.com/plaid-exchange/) if they are interested in collaborating directly with Plaid on an API integration.
+
