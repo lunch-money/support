@@ -1,5 +1,15 @@
 # Accounts
 
+## How are manually-managed account balances updated?
+
+Manually-managed account balances are updated automatically when you add, remove or update a transaction assigned to that account.
+
+For instance, if you import transactions via CSV, manually add a new transaction or use the developer API to bulk-insert transactions, the associated account balance will update accordingly.
+
+Admittedly, sometimes we miss a few things and your account balance may not update perfectly. In this case, you can always go to the Accounts page and manually update the balance.
+
+Note: making a manual update to your account balance will not create any new transactions.
+
 ## How do I merge a manually-managed account with a synced account?
 
 ### Why would I ever need to do this?
