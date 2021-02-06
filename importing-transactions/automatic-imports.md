@@ -14,9 +14,7 @@ Currently, we are only legally allowed to provide this service to US & Canadian 
 
 ## Support for international banks
 
-We'd love to integrate with international banks for automatic imports, but unfortunately we're running into blockers due to data privacy laws as we're a Canadian-based company. 
-
-We'd love to work on connecting to European and Australian banks for automatic imports. We're actively working with a number of data providers and waiting patiently for them to work with local regulators and hopefully pave the way for us one day to support our international users with automatic imports. As you can probably imagine, this could take a while.
+We are slowly rolling out support for UK and EU-based banks. If you're interested in being part of your pilot program, please email us at support@lunchmoney.app 
 
 In the meantime, we have a [developer API ](https://developers.lunchmoney.app)which we're hoping will bridge the gap between Lunch Money & international banks. We already have a few European banks supported via community-made open source plugins such as [bunq](https://github.com/markjongkind/bunq-to-lunchmoney) and [Monzo](https://github.com/joehoyle/monzo-to-lunch-money)!
 
