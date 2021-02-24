@@ -30,6 +30,19 @@ This operation is also automatically triggered if you go to the Transactions pag
 
 You can get more information on when we last fetched transactions & balances for your accounts from the [Accounts](https://my.lunchmoney.app/accounts) page.
 
+## Recovering revoked accounts
+
+Connections get revoked if you don't enter your billing information within 5 days of your trial ending.
+
+When a connection gets revoked, that means that we have voluntarily given up our access to your bank data. To continue with bank syncing, you'll need to link a brand new connection to your bank. Your revoked/error'ed connections are not recoverable.
+
+To merge the data from your revoked connections with the new ones, follow these steps:
+
+1. Check each of your revoked/error accounts and note down the date of the last successfully imported transaction.
+2. Go through the removal flow for each of your revoked/error accounts and when prompted, elect to keep account data and move to a new manually-managed account.
+3. Connect to your bank\(s\). When prompted, set the "earliest import date" to be the last import date as noted in step 1 and enable "Block importing before this date" to prevent duplicates. This will make sure that the newly synced account will only import transactions after this date!
+4. Once that's done, click on your newly created manually-managed assets from step 2. For each one, click on "Merge with synced accounts" and choose the associated synced account. This will merge together transactions, recurring items, rules and balance histories.
+
 ## FAQ
 
 ### I can't connect to my institution!
