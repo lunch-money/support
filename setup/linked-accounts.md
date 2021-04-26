@@ -8,6 +8,12 @@ Updates between your bank and Plaid can take anywhere between 1 and 3 business d
 
 If there are missing transactions or incorrect balances, that's usually an issue between your bank and Plaid. If that's the case, let us know and we can look into it for you :\)
 
+## I opened a new account with my bank. Will this show up automatically in Lunch Money?
+
+Yes, if you have new accounts with your bank and it's set up for automatic syncing, the system will automatically detect this. In some rare cases, this could take a few days to show up. Do not add a new bank connection as this will result in duplicate accounts.
+
+If your account is taking longer than expected to show up, reach out to support and we will reach out to Plaid, our third-party banking importer, for further support.
+
 ## How do I remove 'inactive' synced accounts?
 
 To answer this question, we first need to provide a bit of context as to how syncing works.

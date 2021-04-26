@@ -38,6 +38,7 @@
 
 ## Miscellaneous
 
+* [Customer Support](miscellaneous/customer-support.md)
 * [Referral Program](miscellaneous/referral-program.md)
 * [Community](miscellaneous/community.md)
 
