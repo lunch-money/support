@@ -39,5 +39,5 @@
 ## Miscellaneous
 
 * [Referral Program](miscellaneous/referral-program.md)
-* [Community \(wip\)](miscellaneous/community.md)
+* [Community](miscellaneous/community.md)
 
