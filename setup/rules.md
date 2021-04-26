@@ -33,16 +33,18 @@ Category rules can match **payee** and **notes** in one of three ways: contain, 
 
 ### Rule effect
 
-The rule effect determines how a transaction which means the rule criteria will change. Currently, you can automatically update the following fields:
+The rule effect determines how a transaction which means the rule criteria will change. Currently, you can set a rule to have the following effects:
 
-* Payee name
-* Note
-* Category
-* Tag\(s\)
+* Set a new payee name
+* Set a note
+* Set category
+* Set tag\(s\)
 * Link to a recurring expense
 * Mark as reviewed
+* Don't link to recurring
+* Don't create a rule
 
-You may also use a rule to split a transaction. Note that splitting and updating the original transaction properties are mutually exclusive!
+You may also use a rule to split a transaction. Note that splitting and updating the original transaction properties are mutually exclusive, meaning you may only do one or the other!
 
 ## Rule creation
 
@@ -56,7 +58,7 @@ A rule can be created in various ways:
 
 ## Applying rules
 
-A rule in Lunch Money is applied to all automatically imported transactions. For manually-imported transactions, you can toggle the option to apply rules in the CSV import tool.
+A rule in Lunch Money is applied to all inputted transactions. For CSV import tool and developer API, there are options to toggle this off. There is currently no way to avoid rules for manually-inputted transactions or imported transactions from bank syncing. Updating an existing transaction will not trigger rules.
 
 When editing a transaction whose payee name matches many others, you have the option to apply the same changes to those transactions. This will appear as part of a notification system and will show you exactly which transactions will be affected with the option of de-selecting some.
 
