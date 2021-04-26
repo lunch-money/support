@@ -34,7 +34,7 @@
 
 * [Collaborators](settings/collaborators.md)
 * [Multicurrency](settings/multicurrency.md)
-* [Payment Methods](settings/payment-methods.md)
+* [Billing](settings/payment-methods.md)
 
 ## Miscellaneous
 
