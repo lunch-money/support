@@ -9,10 +9,19 @@
 * [CSV Importing](importing-transactions/import-via-csv.md)
 * [Developer API](importing-transactions/developer-api.md)
 
+## Home
+
+* [Overview](home/overview.md)
+* [Net Worth Tracker](home/net-worth.md)
+* [Stats](home/stats.md)
+* [Trends](home/trends.md)
+
 ## Finances
 
 * [Transactions](finances/transactions.md)
+* [Budget \(wip\)](finances/budget.md)
 * [Recurring Items](finances/recurring-items.md)
+* [Analyze \(wip\)](finances/analyze.md)
 
 ## Setup
 
@@ -30,4 +39,5 @@
 ## Miscellaneous
 
 * [Referral Program](miscellaneous/referral-program.md)
+* [Community \(wip\)](miscellaneous/community.md)
 

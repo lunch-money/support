@@ -2,17 +2,17 @@
 
 Welcome to the Lunch Money knowledge base! 
 
-Please note, this is very much a work in progress. We will be adding more to these docs in the coming weeks!
+{% hint style="info" %}
+These docs are a work in progress. If you can't find the answer you're looking for here, use the in-app feedback system \(via "Help" at the top right corner\) or reach out to us directly at support@lunchmoney.app.
+{% endhint %}
 
 Want to contribute to the docs? Feel free to open a pull request against [lunch-money/support](https://github.com/lunch-money/support) on Github.
-
-If you have any feedback on this knowledge base or require assistance beyond the abilities of these docs, please use the built-in feedback system or email us directly at [support@lunchmoney.app](mailto:support@lunchmoney.app)
 
 ## I just signed up for Lunch Money. What now?
 
 Congratulations on starting your 14-day trial with Lunch Money! \(If you haven't already yet, head over to [lunchmoney.app](https://lunchmoney.app) to register today.\)
 
-After you've gone through the onboarding, you'll have your basic categories set up. The first thing you'll want to do after this depends on if you linked an account for automatic bank syncing.
+After you've gone through the onboarding, you'll have your basic categories, display and currency settings set up. The first thing you'll want to do after this depends on if you linked an account for automatic bank syncing.
 
 ### Set up accounts
 

@@ -2,7 +2,7 @@
 
 ## Are there plans for a mobile app?
 
-We don't currently have concrete development plans for a mobile app.
+We don't currently have concrete development plans for a mobile app. [Read more about why we're choosing to be web-first!](https://lunchmoney.app/features/web-first)
 
 Lunch Money is maintained by a one-woman team, and right now, we're focused on rounding out the product through improvements and new features based on user feedback. We're committed to maintaining high quality and usability on Lunch Money! 
 
