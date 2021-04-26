@@ -10,6 +10,20 @@ Examples of **recurring income** include your salary or interest income.
 
 Typically if you want to cut down on spending, recurring expenses will be the first place you look since canceling a monthly subscription can save you a lot of money in the long run!
 
+## Recurring income vs Recurring expense
+
+In Lunch Money, the default setting is to [allow categories for recurring items](recurring-items.md#categories). In this case, a recurring item is considered income or expense depending on the category assigned. 
+
+If the setting for allowing recurring categories is off or there is no category assigned, then a recurring item will be considered a recurring income or recurring expense depending on the notation \(+/i\) of the transaction.
+
+## Why should I track recurring items?
+
+Setting up a recurring item allows you to track all future \(and past!\) occurrences of this transaction. This could be useful in a number of ways:
+
+* track when/if a recurring item has been charged, easily detect discrepancies
+* figure out your "minimum living cost", i.e. if you didn't spend a single dime on day-to-day expenses, how much would you need to just survive \(rent, utilities, subscriptions, etc\)
+* interesting way to separate out your recurring items from your daily expenditures. You might find this useful if you want to look at your stats and trends. For instance, when looking at your most expensive transactions every month, you may want to exclude your rent from that analysis.
+
 ## How are recurring items handled in Lunch Money?
 
 In Lunch Money, recurring items are tracked separately in its own Recurring Items page. Every month has its own Recurring Items page because you may expect a different set of recurring items every month. For example, if you have a yearly Costco membership to pay for, you will only see that recurring expense on your renewal month.

@@ -1,5 +1,13 @@
 # Accounts
 
+## How often should I expect new transactions to get imported?
+
+It's important to note there are 3 parties involved in getting your bank data: Your bank, Plaid \(our third-party banking importer\) and Lunch Money. We interact with Plaid to get the latest from your bank.
+
+Updates between your bank and Plaid can take anywhere between 1 and 3 business days. Once Plaid receives an update, they notify us and we re-sync your account immediately. Other than that, our system also syncs up with Plaid at least once every 2 days to ensure nothing fell through the cracks.
+
+If there are missing transactions or incorrect balances, that's usually an issue between your bank and Plaid. If that's the case, let us know and we can look into it for you :\)
+
 ## How do I remove 'inactive' synced accounts?
 
 To answer this question, we first need to provide a bit of context as to how syncing works.
