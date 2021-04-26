@@ -1,5 +1,17 @@
 # Accounts
 
+## How do I remove 'inactive' synced accounts?
+
+To answer this question, we first need to provide a bit of context as to how syncing works.
+
+When you connect to your bank, we get an access token which gives us read access to all of your accounts. Every time we fetch new data for you, we'll check each of these accounts for updates. 
+
+When you mark one or two of these accounts as inactive, it means you don't want these balance and transaction updates. So, even though we have access to read that data, we skip them due to your preferences. However, that doesn't invalidate the access token as a whole, and at any point you can re-activate these accounts to track in Lunch Money which is why they still show up, albeit as "inactive".
+
+There isn't a way to "remove" inactive accounts. However, if you want to hide these from your view, I suggest using filters, like so:
+
+![Use view filters to hide inactive accounts from your view](../.gitbook/assets/screen-shot-2021-03-24-at-4.18.02-pm.png)
+
 ## How are manually-managed account balances updated?
 
 Manually-managed account balances are updated automatically when you add, remove or update a transaction assigned to that account.
