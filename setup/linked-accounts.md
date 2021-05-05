@@ -1,5 +1,15 @@
 # Accounts
 
+## Frequently Asked Questions
+
+1. [How often should I expect new transactions to get imported?](linked-accounts.md#how-often-should-i-expect-new-transactions-to-get-imported)
+2. [I opened a new account with my bank. Will this show up automatically in Lunch Money?](linked-accounts.md#i-opened-a-new-account-with-my-bank-will-this-show-up-automatically-in-lunch-money)
+3. [How do I de-activate or remove a synced account?](linked-accounts.md#how-do-i-de-activate-or-remove-a-synced-account)
+4. [How do I remove 'inactive' synced accounts?](linked-accounts.md#how-do-i-remove-inactive-synced-accounts)
+5. [How are manually-managed account balances updated?](linked-accounts.md#how-are-manually-managed-account-balances-updated)
+6. [How do I merge a manually-managed account with a synced account?](linked-accounts.md#how-do-i-merge-accounts)
+7. [My partner and I have joint accounts and they are showing up twice with duplicate transactions. How do I handle this?](linked-accounts.md#my-partner-and-i-have-joint-accounts-and-they-are-showing-up-twice-with-duplicate-transactions-how-do-i-handle-this)
+
 ## How often should I expect new transactions to get imported?
 
 It's important to note there are 3 parties involved in getting your bank data: Your bank, Plaid \(our third-party banking importer\) and Lunch Money. We interact with Plaid to get the latest from your bank.
@@ -13,6 +23,14 @@ If there are missing transactions or incorrect balances, that's usually an issue
 Yes, if you have new accounts with your bank and it's set up for automatic syncing, the system will automatically detect this. In some rare cases, this could take a few days to show up. Do not add a new bank connection as this will result in duplicate accounts.
 
 If your account is taking longer than expected to show up, reach out to support and we will reach out to Plaid, our third-party banking importer, for further support.
+
+## How do I de-activate or remove a synced account?
+
+Deactivating or removing a synced account means you no longer want us to fetch the latest transactions and balance for it.
+
+You can click into the account you want to deactivate and click "Remove this account". This gives you the option to remove _only_ that account and the choice to keep or remove associated items \(transactions, balance history, etc\). This will still show up in your list of accounts as 'inactive' but you can use a View filter to remove this from view.
+
+![Use filters to remove inactive and closed accounts from view](../.gitbook/assets/screen-shot-2021-03-24-at-4.18.02-pm%20%281%29.png)
 
 ## How do I remove 'inactive' synced accounts?
 
