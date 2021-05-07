@@ -27,5 +27,11 @@ We generally recommend using our grouped transactions feature for this use case.
 
 If you don't want to bother recording your friends' payment, you can **split** the transaction and simply categorize the portion paid by your friends to a new category called "Reimbursed" which is excluded from totals and excluded from budgets. This ensures that amount is not counted towards your own expenses.
 
+## Is there a limit on how many transactions I can add?
+
+There are limits to how many transactions you can upload on a single request but there isn't a limit on total transactions you add. This limit differs depending on the upload method \(CSV or API\).
+
+For analytics and whatnot there's currently a hardcoded limit of 20,000 when fetching transactions, so if you have transactions over 10+ years, you may not be able to see the full picture if you do an "all-time" analysis.
+
 
 
