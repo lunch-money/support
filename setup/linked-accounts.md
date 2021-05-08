@@ -3,12 +3,13 @@
 ## Frequently Asked Questions
 
 1. [How often should I expect new transactions to get imported?](linked-accounts.md#how-often-should-i-expect-new-transactions-to-get-imported)
-2. [I opened a new account with my bank. Will this show up automatically in Lunch Money?](linked-accounts.md#i-opened-a-new-account-with-my-bank-will-this-show-up-automatically-in-lunch-money)
-3. [How do I de-activate or remove a synced account?](linked-accounts.md#how-do-i-de-activate-or-remove-a-synced-account)
-4. [How do I remove 'inactive' synced accounts?](linked-accounts.md#how-do-i-remove-inactive-synced-accounts)
-5. [How are manually-managed account balances updated?](linked-accounts.md#how-are-manually-managed-account-balances-updated)
-6. [How do I merge a manually-managed account with a synced account?](linked-accounts.md#how-do-i-merge-accounts)
-7. [My partner and I have joint accounts and they are showing up twice with duplicate transactions. How do I handle this?](linked-accounts.md#my-partner-and-i-have-joint-accounts-and-they-are-showing-up-twice-with-duplicate-transactions-how-do-i-handle-this)
+2. [What is the difference between the different account types \(cash, credit, loan, etc\)?](linked-accounts.md#what-is-the-difference-between-the-different-account-types-cash-credit-loan-etc)
+3. [I opened a new account with my bank. Will this show up automatically in Lunch Money?](linked-accounts.md#i-opened-a-new-account-with-my-bank-will-this-show-up-automatically-in-lunch-money)
+4. [How do I de-activate or remove a synced account?](linked-accounts.md#how-do-i-de-activate-or-remove-a-synced-account)
+5. [How do I remove 'inactive' synced accounts?](linked-accounts.md#how-do-i-remove-inactive-synced-accounts)
+6. [How are manually-managed account balances updated?](linked-accounts.md#how-are-manually-managed-account-balances-updated)
+7. [How do I merge a manually-managed account with a synced account?](linked-accounts.md#how-do-i-merge-accounts)
+8. [My partner and I have joint accounts and they are showing up twice with duplicate transactions. How do I handle this?](linked-accounts.md#my-partner-and-i-have-joint-accounts-and-they-are-showing-up-twice-with-duplicate-transactions-how-do-i-handle-this)
 
 ## How often should I expect new transactions to get imported?
 
@@ -17,6 +18,16 @@ It's important to note there are 3 parties involved in getting your bank data: Y
 Updates between your bank and Plaid can take anywhere between 1 and 3 business days. Once Plaid receives an update, they notify us and we re-sync your account immediately. Other than that, our system also syncs up with Plaid at least once every 2 days to ensure nothing fell through the cracks.
 
 If there are missing transactions or incorrect balances, that's usually an issue between your bank and Plaid. If that's the case, let us know and we can look into it for you :\)
+
+## What is the difference between the different account types \(cash, credit, loan, etc\)?
+
+The difference between these account types for both manually-managed and synced accounts is in how the balances contribute to net worth.
+
+For loans and credit accounts, positive balance denote amount owed and is deducted from net worth.
+
+For cash, real estate, crypto, etc, positive balance denotes amount owned and is add to net worth.
+
+For manually-managed accounts, you can update the account type as you wish. For synced accounts, the account type is set by Plaid. If you find that your account types are incorrect, for example, a loan account is denoted as a cash account, please get in touch with support as this is a syncing issue between Plaid and your bank.
 
 ## I opened a new account with my bank. Will this show up automatically in Lunch Money?
 
