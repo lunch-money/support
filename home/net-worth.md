@@ -17,6 +17,10 @@ Sometimes you may want to update your historical account balances. A few reasons
 * Account syncing was in error mode and a latest balance was not fetched
 * You want to backfill historical account balances to get a more complete picture of your net worth over time
 
+{% hint style="info" %}
+The Net Worth Tracker doesn't automatically backfill based on historical transactions. This is because we don't \(yet\) have a reconcile and starting balance feature that would allow us to easily extrapolate your previous account balances.
+{% endhint %}
+
 To edit historical balances, click on "View/Edit Data" at the top left corner of the chart.
 
 ![Editing historical balances is easy in Lunch Money&apos;s net worth tracker](../.gitbook/assets/editable.png)
