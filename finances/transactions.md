@@ -33,5 +33,9 @@ There are limits to how many transactions you can upload on a single request but
 
 For analytics and whatnot there's currently a hardcoded limit of 20,000 when fetching transactions, so if you have transactions over 10+ years, you may not be able to see the full picture if you do an "all-time" analysis.
 
+## How do I handle credit card payments?
+
+For credit card payments, usually made up of one debit to your cash account and one credit to your credit card, we recommend using the default [category](../setup/categories.md) **Payment and Transfers**. This category is set to be [excluded from totals](../setup/categories.md#exclude-from-totals) and [excluded from budgets](../setup/categories.md#exclude-from-budget), so these transactions should not affect your overall numbers or budget. Transactions in this category should also total up to $0 at the end of the month.
+
 
 
