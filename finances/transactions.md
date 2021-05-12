@@ -2,6 +2,13 @@
 
 Transactions are the building blocks for your Lunch Money experience! A transaction represents the movement of money, whether that's between existing accounts or from your credit card to a merchant. 
 
+## Frequently Asked Questions
+
+1. How do I handle the case where others pay me back for a large bill that I paid for?
+2. Is there a limit on how many transactions I can add?
+3. How do I handle credit card payments?
+4. What are some ways I can stay on top of manually adding transactions?
+
 ## Creating transactions
 
 For details on automatic bank syncing, check [here](../importing-transactions/automatic-imports.md).
@@ -36,6 +43,17 @@ For analytics and whatnot there's currently a hardcoded limit of 20,000 when fet
 ## How do I handle credit card payments?
 
 For credit card payments, usually made up of one debit to your cash account and one credit to your credit card, we recommend using the default [category](../setup/categories.md) **Payment and Transfers**. This category is set to be [excluded from totals](../setup/categories.md#exclude-from-totals) and [excluded from budgets](../setup/categories.md#exclude-from-budget), so these transactions should not affect your overall numbers or budget. Transactions in this category should also total up to $0 at the end of the month.
+
+## What are some ways I can stay on top of manually adding transactions?
+
+Here are some suggestions from our users on how to stay on top of manually adding transactions!
+
+1. A recurring task in Things \(my task manager of choice\) that forces me to spend 5-10 minutes at the end of each week rounding things up.
+2. My partner and I live in a primarily cash-based society. We keep a little pile of receipts in the office and every few days when it stacks too high, one of us will take it and input transactions manually. Takes about 10 minutes each time!
+3. A Lunch Money user, Derek Reiff created [Milk Money](https://milkmoney.club/), a mobile-friendly solution for quick add on-the-go. \([Github source](https://github.com/dareiff/quick-add)\)
+4. Create a Google form for inputting transactions, and every week or so, export the data as CSV and import it into Lunch Money
+
+Finally, there is a secret, undocumented feature which we should really take time to improve upon– the [Lunch Money Quick Add screen](https://my.lunchmoney.app/transactions/new).
 
 
 
