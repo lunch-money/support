@@ -4,10 +4,10 @@ Transactions are the building blocks for your Lunch Money experience! A transact
 
 ## Frequently Asked Questions
 
-1. How do I handle the case where others pay me back for a large bill that I paid for?
-2. Is there a limit on how many transactions I can add?
-3. How do I handle credit card payments?
-4. What are some ways I can stay on top of manually adding transactions?
+1. [How do I handle the case where others pay me back for a large bill that I paid for?](transactions.md#how-do-i-handle-the-case-where-others-pay-me-back-for-a-large-bill-that-i-paid-for)
+2. [Is there a limit on how many transactions I can add?](transactions.md#is-there-a-limit-on-how-many-transactions-i-can-add)
+3. [How do I handle credit card payments?](transactions.md#how-do-i-handle-credit-card-payments)
+4. [What are some ways I can stay on top of manually adding transactions?](transactions.md#what-are-some-ways-i-can-stay-on-top-of-manually-adding-transactions)
 
 ## Creating transactions
 
