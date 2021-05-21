@@ -71,3 +71,15 @@ Unfortunately, we don't have control over which institutions are supported by Pl
 
 According to Plaid, they are not currently prioritizing new institution builds. Their recommendation is to reach out to your financial institution on their behalf and ask them to submit a contact request via [https://plaid.com/plaid-exchange/](https://plaid.com/plaid-exchange/) if they are interested in collaborating directly with Plaid on an API integration.
 
+### What information do you store when I sync my bank account?
+
+If you use the automatic bank syncing feature, we store the following information about your account: 
+
+1. The account name
+2. The account mask \(last four digits\)
+3. The account type and subtype \(for example, loan and mortgage\)
+
+And then we periodically update any transactions and balance updates.
+
+We do not store, nor do we have access to the account holder's name or other personal information, or account routing numbers.
+
