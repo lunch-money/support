@@ -79,7 +79,7 @@ If you use the automatic bank syncing feature, we store the following informatio
 2. The account mask \(last four digits\)
 3. The account type and subtype \(for example, loan and mortgage\)
 
-And then we periodically update any transactions and balance updates.
+And then we periodically receive transactions and balance updates.
 
 We do not store, nor do we have access to the account holder's name or other personal information, or account routing numbers.
 
