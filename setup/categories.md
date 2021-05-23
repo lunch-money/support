@@ -6,6 +6,8 @@ In Lunch Money, categories have three properties which are important to understa
 
 ## Category Properties
 
+Each category has 3 properties. A sub-category inherits these property settings from their parent category. You can update the properties for any category by going to the Category page and clicking on any of the categories to open the side modal.
+
 {% hint style="info" %}
 Sub-categories inherit these properties from their parent categories!
 {% endhint %}
