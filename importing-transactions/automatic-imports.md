@@ -12,6 +12,15 @@ We rely on [Plaid](https://plaid.com), a third-party banking provider, to import
 
 Currently, we are only legally allowed to provide this service to US & Canadian based banks. If you are based outside of this region, you may instead take advantage of our [CSV import tool](import-via-csv.md) or [developer API](developer-api.md) to get bulk transactions into Lunch Money.
 
+## Frequently Asked Questions
+
+1. [I can't connect to my institution!](automatic-imports.md#i-cant-connect-to-my-institution)
+2. [Why does my account keep requiring me to relink/re-authenticate?](automatic-imports.md#why-does-my-account-keep-requiring-me-to-relink-re-authenticate)
+3. [Why am I not seeing any transactions for my brokerage/investment accounts?](automatic-imports.md#why-am-i-not-seeing-any-transactions-for-my-brokerage-investment-accounts)
+4. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
+5. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
+6. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
+
 ## Support for international banks
 
 We are slowly rolling out support for UK and EU-based banks. If you're interested in being part of your pilot program, please email us at support@lunchmoney.app 
@@ -82,4 +91,30 @@ If you use the automatic bank syncing feature, we store the following informatio
 And then we periodically receive transactions and balance updates.
 
 We do not store, nor do we have access to the account holder's name or other personal information, or account routing numbers.
+
+### I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?
+
+If you were tracking your transactions manually while your bank was either not supported for syncing or undergoing downtime, you may want to reconcile your transactions with the new bank connection.
+
+The first step is to identify the date of the latest transaction you added for this account. **Do this before you link to your bank**. When prompted, set the "Earliest import date" to the date of the latest transaction and select "Block importing before this date".
+
+{% hint style="info" %}
+#### What if I already linked my new bank?
+
+Never fear! You can set these fields by clicking into your account. This will prevent future transaction updates from importing older transactions. You'll then need to manually remove your duplicates. You can do this easily by identifying duplicate transactions using the filtering feature in the Transactions page.
+
+For example, set a filter to only show transactions from your new synced account and your old manually-managed account. Sort by date and use the bulk-selection method to bulk-delete transactions.
+{% endhint %}
+
+![After you connect to your bank, you&apos;ll see this pop up. Make sure you enter the earliest date to import and block importing before this date.](../.gitbook/assets/screen-shot-2020-11-27-at-1.00.52-am.png)
+
+This makes it so that our system will not automatically import transactions before a certain date. Since this date is set to the date of your most recent manual transaction, there should be no duplicates imported.
+
+Once your new bank connection is active, click into your old manually-managed asset and choose the option "Merge with synced account".
+
+![](../.gitbook/assets/screen-shot-2021-05-24-at-3.09.46-pm.png)
+
+Follow the instructions and make sure to merge over all transactions and balance history for a seamless experience!
+
+
 
