@@ -43,6 +43,9 @@ The rule effect determines how a transaction which means the rule criteria will 
 * Mark as reviewed
 * Don't link to recurring
 * Don't create a rule
+* Delete \(this\) transaction\*
+
+\* - only accessible when creating a rule via a transaction
 
 You may also use a rule to split a transaction. Note that splitting and updating the original transaction properties are mutually exclusive, meaning you may only do one or the other!
 
@@ -63,4 +66,18 @@ A rule in Lunch Money is applied to all inputted transactions. For CSV import to
 When editing a transaction whose payee name matches many others, you have the option to apply the same changes to those transactions. This will appear as part of a notification system and will show you exactly which transactions will be affected with the option of de-selecting some.
 
 You also have the option to apply rules retroactively via the “Apply” button next to each rule in the Rule page. Before applying, Lunch Money will let you know which transactions will be updated with the option of de-selecting some.
+
+## Using one-time rules
+
+### **One-time rules + "delete transaction" rule action**
+
+The use case here is for folks anticipating an imported transaction, but wanting to see the transaction amount adjustments right away. Create a manual transaction that auto-deletes once a corresponding pending/posted transaction is imported.
+
+**Steps:**
+
+1. Create a manually-managed transaction
+2. Click into the transaction and select "Create Rule"
+3. Set your conditions \(i.e. new transaction with payee 'Walmart' in account 'Bank of America credit card'\)
+4. Choose 'delete transaction' as an action– this auto-selects the current transaction. Note this feature is only available via "Create a rule" from the Transactions details view.
+5. The option to 'delete rule after use' is automatically selected in this case.
 
