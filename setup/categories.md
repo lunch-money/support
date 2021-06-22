@@ -36,6 +36,20 @@ These are great to use for tracking payments/transfers between accounts or reimb
 
 In the Analyze feature, there is an option to include these transactions in totals calculations.
 
+## Category groups
+
+You may nest categories within another category, creating a category group. Category groups should include more than 1 category.
+
+To add a category to a category group:
+
+1. Add a new category first \(optional\)
+2. Click on your pre-existing category group and go to "Edit category group"
+3. From there, you can create a new category to automatically add to the group or add an existing category to the group.
+
+You may not set an existing category to be a category group because transactions may not be assigned to a category group. 
+
+With category groups, you can quickly filter by a group in the Transactions page or Analyze page. In the Overview page, you can also see your spending breakdown by category group.
+
 ## Suggested categories
 
 Upon signing up for Lunch Money, we present a few categories to get your started. These are suggested categories that will automatically be assigned to related transactions based on our best guess.
