@@ -19,7 +19,7 @@
 ## Finances
 
 * [Transactions](finances/transactions.md)
-* [Budget \(wip\)](finances/budget.md)
+* [Budget](finances/budget.md)
 * [Recurring Items](finances/recurring-items.md)
 * [Analyze \(wip\)](finances/analyze.md)
 
