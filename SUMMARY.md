@@ -26,6 +26,7 @@
 ## Setup
 
 * [Accounts](setup/linked-accounts.md)
+* [Crypto](setup/crypto.md)
 * [Tags](setup/tags.md)
 * [Categories](setup/categories.md)
 * [Rules](setup/rules.md)
