@@ -2,10 +2,6 @@
 
 ## Suggested and rollover budgets
 
-{% hint style="info" %}
-Suggested budgets are a new feature currently in beta. To enable access to the beta build, head over to the [Community](https://my.lunchmoney.app/community) page.
-{% endhint %}
-
 Let Lunch Money help you figure out what your budget should be each month! Introducing **suggested budgets**!
 
 ![](../.gitbook/assets/screen-shot-2021-07-15-at-12.30.24-pm.png)
