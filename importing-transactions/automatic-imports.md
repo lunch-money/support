@@ -8,7 +8,7 @@ description: >-
 
 ## Introduction
 
-We rely on [Plaid](https://plaid.com), a third-party banking provider, to import transactions and balances for your bank accounts. Plaid is a popular, secure and established service also used by a slew of other personal finance apps on the market. 
+We rely on [Plaid](https://plaid.com), a third-party banking provider, to import transactions and balances for your bank accounts. Plaid is a popular, secure and established service also used by a slew of other personal finance apps on the market.&#x20;
 
 Currently, we are only legally allowed to provide this service to US & Canadian based banks. If you are based outside of this region, you may instead take advantage of our [CSV import tool](import-via-csv.md) or [developer API](developer-api.md) to get bulk transactions into Lunch Money.
 
@@ -19,11 +19,12 @@ Currently, we are only legally allowed to provide this service to US & Canadian 
 3. [Why am I not seeing any transactions for my brokerage/investment accounts?](automatic-imports.md#why-am-i-not-seeing-any-transactions-for-my-brokerage-investment-accounts)
 4. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
 5. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
-6. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
+6. How do I track transactions manually for a synced account?
+7. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
 
 ## Support for international banks
 
-We are slowly rolling out support for UK and EU-based banks. If you're interested in being part of your pilot program, please email us at support@lunchmoney.app 
+We are slowly rolling out support for UK and EU-based banks. If you're interested in being part of your pilot program, please email us at support@lunchmoney.app&#x20;
 
 In the meantime, we have a[ developer API](https://lunchmoney.dev) which we're hoping will bridge the gap between Lunch Money & international banks. We already have a few European banks supported via community-made open source plugins such as [bunq](https://github.com/markjongkind/bunq-to-lunchmoney) and [Monzo](https://github.com/joehoyle/monzo-to-lunch-money)!
 
@@ -31,7 +32,7 @@ We also highly recommend using our [CSV import tool](import-via-csv.md) which we
 
 ## Fetching the latest data
 
-Balance and transactions are fetched automatically when we receive a notice via webhook from your bank & Plaid \(our third-party banking provider\) that there are new transactions. On rare occasions, this webhook doesn't arrive or somewhere along the line, something hiccups and we don't fetch the latest. In this case, you can manually trigger a fetch from the Transactions page by clicking on the refresh icon:
+Balance and transactions are fetched automatically when we receive a notice via webhook from your bank & Plaid (our third-party banking provider) that there are new transactions. On rare occasions, this webhook doesn't arrive or somewhere along the line, something hiccups and we don't fetch the latest. In this case, you can manually trigger a fetch from the Transactions page by clicking on the refresh icon:
 
 ![](../.gitbook/assets/screen-shot-2020-04-09-at-4.26.48-pm.png)
 
@@ -49,7 +50,7 @@ To merge the data from your revoked connections with the new ones, follow these 
 
 1. Check each of your revoked/error accounts and note down the date of the last successfully imported transaction.
 2. Go through the removal flow for each of your revoked/error accounts and when prompted, elect to keep account data and move to a new manually-managed account.
-3. Connect to your bank\(s\). When prompted, set the "earliest import date" to be the last import date as noted in step 1 and enable "Block importing before this date" to prevent duplicates. This will make sure that the newly synced account will only import transactions after this date!
+3. Connect to your bank(s). When prompted, set the "earliest import date" to be the last import date as noted in step 1 and enable "Block importing before this date" to prevent duplicates. This will make sure that the newly synced account will only import transactions after this date!
 4. Once that's done, click on your newly created manually-managed assets from step 2. For each one, click on "Merge with synced accounts" and choose the associated synced account. This will merge together transactions, recurring items, rules and balance histories.
 
 ## FAQ
@@ -72,25 +73,39 @@ This is most likely related to a multi-factor authentication setting that you ha
 
 Automatically importing transactions for some investment accounts is supported but not enabled by default.
 
-If you have automatically synced investment accounts that are supported for this feature, you'll see an option to "Sync transactions \(beta\)" under "Advanced Settings" in the Accounts page. Note that you'll need to enable this option for each investment account you want transactions for.
+If you have automatically synced investment accounts that are supported for this feature, you'll see an option to "Sync transactions (beta)" under "Advanced Settings" in the Accounts page. Note that you'll need to enable this option for each investment account you want transactions for.
 
 ### My institution is not listed.
 
-Unfortunately, we don't have control over which institutions are supported by Plaid. 
+Unfortunately, we don't have control over which institutions are supported by Plaid.&#x20;
 
 According to Plaid, they are not currently prioritizing new institution builds. Their recommendation is to reach out to your financial institution on their behalf and ask them to submit a contact request via [https://plaid.com/plaid-exchange/](https://plaid.com/plaid-exchange/) if they are interested in collaborating directly with Plaid on an API integration.
 
 ### What information do you store when I sync my bank account?
 
-If you use the automatic bank syncing feature, we store the following information about your account: 
+If you use the automatic bank syncing feature, we store the following information about your account:&#x20;
 
 1. The account name
-2. The account mask \(last four digits\)
-3. The account type and subtype \(for example, loan and mortgage\)
+2. The account mask (last four digits)
+3. The account type and subtype (for example, loan and mortgage)
 
 And then we periodically receive transactions and balance updates.
 
 We do not store, nor do we have access to the account holder's name or other personal information, or account routing numbers.
+
+### How do I track transactions manually for a synced account?
+
+If your transactions were automatically syncing with your bank, and something happened such as a service disruption, you can temporarily track transactions manually for a synced account.
+
+It's important to note that synced accounts inherently do not support manual transactions. So, you'll need to convert the synced account to a manual account. To do this, you'll need to go through the account removal flow and opt to keep all existing data.
+
+Click on the account in question and scroll down in the side pop-up to where it says "Remove  account". Decide if you only want to manual track for this account, or all other associated accounts within the same institution.
+
+Once you've made your selection, make sure you have the following selected to keep all your existing data and to assign it to a new manually-managed asset. If you have an existing one that you want to use, you may also choose that one. We also recommend that you elect to keep your balance history (this is asked in the next screen).
+
+### ![](<../.gitbook/assets/Screen Shot 2022-04-25 at 2.39.57 PM.png>)
+
+Once you've gone through this flow, you are able to treat this account as a manually-managed account and add transactions to it. The balance will automatically update, and you may also reconcile your balance at any point from the Accounts page.
 
 ### I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?
 
@@ -106,7 +121,7 @@ Never fear! You can set these fields by clicking into your account. This will pr
 For example, set a filter to only show transactions from your new synced account and your old manually-managed account. Sort by date and use the bulk-selection method to bulk-delete transactions.
 {% endhint %}
 
-![After you connect to your bank, you&apos;ll see this pop up. Make sure you enter the earliest date to import and block importing before this date.](../.gitbook/assets/screen-shot-2020-11-27-at-1.00.52-am.png)
+![After you connect to your bank, you'll see this pop up. Make sure you enter the earliest date to import and block importing before this date.](../.gitbook/assets/screen-shot-2020-11-27-at-1.00.52-am.png)
 
 This makes it so that our system will not automatically import transactions before a certain date. Since this date is set to the date of your most recent manual transaction, there should be no duplicates imported.
 
@@ -115,6 +130,4 @@ Once your new bank connection is active, click into your old manually-managed as
 ![](../.gitbook/assets/screen-shot-2021-05-24-at-3.09.46-pm.png)
 
 Follow the instructions and make sure to merge over all transactions and balance history for a seamless experience!
-
-
 

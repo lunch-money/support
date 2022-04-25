@@ -10,7 +10,7 @@ description: >-
 
 ### What is a CSV file?
 
-Most financial institutions will allow you to download a CSV export of your transactions. This is a plain-text file of your transactions details, such as date, amount and description, separated by a delimiter, typically a comma, hence, **c**omma-**s**eparated **v**alues. 
+Most financial institutions will allow you to download a CSV export of your transactions. This is a plain-text file of your transactions details, such as date, amount and description, separated by a delimiter, typically a comma, hence, **c**omma-**s**eparated **v**alues.&#x20;
 
 With this file, you can import your transactions into Lunch Money quickly and easily.
 
@@ -33,15 +33,15 @@ Head to the Transactions page and hit the "Add To Cash" dropdown. From there, se
 
 For a fast and successful CSV import, we recommend that your file includes the following columns with the associated header name:
 
-* Date of transaction \(required\)
+* Date of transaction (required)
   * Header name: `date`
   * Format preferred: YYYY/MM/DD or YYYY-MM-DD
-  * All other formats are possible, but we may have a hard time parsing them. \(It should still work, as there is an opportunity to teach our system which date format you're using. It just might take an extra step!\)
-* Name of transaction \(required\)
+  * All other formats are possible, but we may have a hard time parsing them. (It should still work, as there is an opportunity to teach our system which date format you're using. It just might take an extra step!)
+* Name of transaction (required)
   * Header name: `payee` or `description`
 * Transaction amounts
   * See below.
-* Transaction notes \(optional\)
+* Transaction notes (optional)
   * Header name: `notes`
 
 #### Formats supported for transaction amounts
@@ -59,7 +59,7 @@ We support three notations for indicating the amount for a transaction.
 
 The first two uses three columns in the CSV while the last two uses a single column. The double column formats interpret all numbers in absolute format which means a negative will not flip the amount.
 
-As of now, these 4 columns are the only ones that you're able to import using CSVs. However, you can always use [Rules]() to help you assign categories or update payee names according to your preferences and habits.
+As of now, these 4 columns are the only ones that you're able to import using CSVs. However, you can always use [Rules](broken-reference) to help you assign categories or update payee names according to your preferences and habits.
 
 ### Recommended course of action
 
@@ -81,9 +81,9 @@ There is a file size restriction of 200kb. We recommend you upload at most a few
 
 ## Step 2: Match CSV columns
 
-We need to match the column data from your CSV file to columns used by Lunch Money. Use the drag-and-drop tool to correspond columns from your CSV file to the appropriate fields Lunch Money needs. We already try to match some columns for you based on whether or not you followed the recommended guidelines \(see **What format should my CSV be in?**\)
+We need to match the column data from your CSV file to columns used by Lunch Money. Use the drag-and-drop tool to correspond columns from your CSV file to the appropriate fields Lunch Money needs. We already try to match some columns for you based on whether or not you followed the recommended guidelines (see **What format should my CSV be in?**)
 
-If your CSV file supports different notations for amounts, use the dropdown to select between single column or double column \(for more details, see **Formats supported for transaction amounts**\)
+If your CSV file supports different notations for amounts, use the dropdown to select between single column or double column (for more details, see **Formats supported for transaction amounts**)
 
 ## Step 3: Review CSV settings
 
@@ -93,7 +93,7 @@ At this stage, your CSV has been parsed by our system based on your settings. Do
 
 > Should a Starbucks expense be a credit? Nope! That's wrong– better flip the switch!
 
- This is very important to ensure that your transactions are imported correctly!
+&#x20;This is very important to ensure that your transactions are imported correctly!
 
 ### Malformed lines
 
@@ -126,4 +126,3 @@ We don't current support a way to import categories. This is because category na
 ### I'm having issues with my CSV file.
 
 Because there isn't a standard format for transactions in a CSV file, every bank exports transactions differently and we may sometimes encounter a CSV that we're not able to parse. However, we're working towards being able to support all variations and flavours of these CSV files. Please contact us at [support@lunchmoney.app](mailto:support@lunchmoney.app) with a snippet of your file and we'll work on getting it supported.
-
