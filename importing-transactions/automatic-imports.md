@@ -19,7 +19,8 @@ Currently, we are only legally allowed to provide this service to US & Canadian 
 3. [Why am I not seeing any transactions for my brokerage/investment accounts?](automatic-imports.md#why-am-i-not-seeing-any-transactions-for-my-brokerage-investment-accounts)
 4. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
 5. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
-6. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
+6. [How do I track transactions manually for a synced account?](automatic-imports.md#how-do-i-track-transactions-manually-for-a-synced-account)
+7. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
 
 ## Support for international banks
 
