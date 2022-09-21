@@ -10,7 +10,7 @@ description: >-
 
 We rely on [Plaid](https://plaid.com), a third-party banking provider, to import transactions and balances for your bank accounts. Plaid is a popular, secure and established service also used by a slew of other personal finance apps on the market.&#x20;
 
-Currently, we are only legally allowed to provide this service to US & Canadian based banks. If you are based outside of this region, you may instead take advantage of our [CSV import tool](import-via-csv.md) or [developer API](developer-api.md) to get bulk transactions into Lunch Money.
+If automatic bank syncing is not available in your region, you may instead take advantage of our [CSV import tool](import-via-csv.md) or [developer API](developer-api.md) to get bulk transactions into Lunch Money.
 
 ## Frequently Asked Questions
 
@@ -24,7 +24,15 @@ Currently, we are only legally allowed to provide this service to US & Canadian 
 
 ## Support for international banks
 
-We are slowly rolling out support for UK and EU-based banks. If you're interested in being part of your pilot program, please email us at support@lunchmoney.app&#x20;
+Through our partnership with [Plaid](https://plaid.com), we currently support automatic bank syncing for most financial institutions based in the following countries:
+
+* USA
+* Canada
+* France
+* The Netherlands
+* Spain
+* Ireland
+* Germany (limited release)
 
 In the meantime, we have a[ developer API](https://lunchmoney.dev) which we're hoping will bridge the gap between Lunch Money & international banks. We already have a few European banks supported via community-made open source plugins such as [bunq](https://github.com/markjongkind/bunq-to-lunchmoney) and [Monzo](https://github.com/joehoyle/monzo-to-lunch-money)!
 
