@@ -21,7 +21,7 @@
 * [Transactions](finances/transactions.md)
 * [Budget](finances/budget.md)
 * [Recurring Items](finances/recurring-items.md)
-* [Analyze \(wip\)](finances/analyze.md)
+* [Analyze (wip)](finances/analyze.md)
 
 ## Setup
 
@@ -39,7 +39,7 @@
 
 ## Miscellaneous
 
+* [Unlimited Budgeting Accounts](miscellaneous/unlimited-budgeting-accounts.md)
 * [Customer Support](miscellaneous/customer-support.md)
 * [Referral Program](miscellaneous/referral-program.md)
 * [Community](miscellaneous/community.md)
-
