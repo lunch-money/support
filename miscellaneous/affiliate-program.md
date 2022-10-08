@@ -8,11 +8,18 @@ The Affiliate Program and Referral Program are similar in that they provide the 
 
 The two main differences between the Affiliate Program and the Referral Program are who can sign up and how the reward is paid out.
 
-Anyone can sign up for the affiliate program, including people who are not Lunch Money users. Only Lunch Money users can refer users via the referral program and only paying subscribers will benefit from the rewards.
+| Affiliate Program                                                             | Referral Program                                                                                             |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Anyone can sign up, including people who are not Lunch Money users            | Only Lunch Money users can refer users                                                                       |
+| Rewards are paid out in monetary form via Paypal                              | Rewards are applied to your next invoice                                                                     |
+| Payouts only happen after a minimum of US$75 in accumulated reward is reached | No minimum number of referrals required                                                                      |
+| Rewards accumulate with every paid invoice by a referred user                 | Rewards are calculated based on a snapshot of your active referrals 24 hours before your subscription renews |
 
-The Affiliate Program pays out rewards in monetary form via Paypal. However, rewards are paid out only after a minimum is reached (US$75). The Referral Program gives you a discount on your next invoice right away.
+### Should I use the referral program or affiliate program to refer users?
 
-Individual paying subscribers who don't foresee having more than 10 referrals should stick with our referral program since you get the rewards right away. Folks, publications or businesses with a larger sphere of influence will benefit more from our Affiliate Program.
+Individual paying subscribers who don't foresee having more than 10 referrals should stick with our referral program since you get the rewards right away. Some users might find they benefit from a high discount on a monthly subscription instead of an annual subscription.
+
+People, publications or businesses with a larger sphere of influence may benefit more from our Affiliate Program.
 
 ## How do I sign up to be an affiliate?
 
