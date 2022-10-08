@@ -42,4 +42,5 @@
 * [Unlimited Budgeting Accounts](miscellaneous/unlimited-budgeting-accounts.md)
 * [Customer Support](miscellaneous/customer-support.md)
 * [Referral Program](miscellaneous/referral-program.md)
+* [Affiliate Program](miscellaneous/affiliate-program.md)
 * [Community](miscellaneous/community.md)
