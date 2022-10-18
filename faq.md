@@ -2,9 +2,9 @@
 
 ## Are there plans for a mobile app?
 
-The short answer is– we don't currently have concrete in-house development plans for a mobile app. [Read more about why we're choosing to be web-first!](https://lunchmoney.app/features/web-first)
+We don't currently have concrete in-house development plans for a mobile app. [Read more about why we're choosing to be web-first!](https://lunchmoney.app/features/web-first)
 
-Lunch Money is maintained by a one-woman team, and right now, we're focused on staying lean, quick, and sustainable. Supporting mobile platforms will add a whole new level of complexity and work.
+Lunch Money is maintained by a very small team, and right now, we're focused on staying lean, quick, and sustainable. Supporting mobile platforms will add a whole new level of complexity we're not ready to take on yet.
 
 That being said, we are committed to continuously improving our [developer API ](https://developers.lunchmoney.app)which has enabled many Lunch Money users to create and share their own tools and companion apps with the larger community, such as:
 
