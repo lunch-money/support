@@ -2,25 +2,24 @@
 
 ## Are there plans for a mobile app?
 
-We don't currently have concrete development plans for a mobile app. [Read more about why we're choosing to be web-first!](https://lunchmoney.app/features/web-first)
+The short answer is– we don't currently have concrete in-house development plans for a mobile app. [Read more about why we're choosing to be web-first!](https://lunchmoney.app/features/web-first)
 
-Lunch Money is maintained by a one-woman team, and right now, we're focused on rounding out the product through improvements and new features based on user feedback. We're committed to maintaining high quality and usability on Lunch Money! 
+Lunch Money is maintained by a one-woman team, and right now, we're focused on staying lean, quick, and sustainable. Supporting mobile platforms will add a whole new level of complexity and work.
 
-Our current strength is our speed of development and iteration. Once we start supporting more than one platform, development will be slowed down. Therefore, it's imperative that we focus mainly on improving the product so that when and if we do eventually support a mobile app, we can be sure we're creating a mobile app based on a fully fleshed-out product.
+That being said, we are committed to continuously improving our [developer API ](https://developers.lunchmoney.app)which has enabled many Lunch Money users to create and share their own tools and companion apps with the larger community, such as:
 
-We understand that a mobile solution is important to our users! It is one of our most highly-requested features. For full transparency, we are likely going to spend time on creating a Lunch Money PWA or a companion app supporting basic features before considering a full parity native mobile app.
+* [Snack Change](https://apps.apple.com/us/app/snack-change/id1557614640), a live iOS companion app for Lunch Money
+* [Milk Money](https://milkmoney.club/), a mobile website for quickly adding transactions by [dareiff](https://github.com/dareiff)
+* [A scriptable iOS Widget](https://github.com/amanb014/lunch-money-widget) for transaction status updates by [amanb014](https://github.com/amanb014)
 
-All that being said, Lunch Money works best as a web app accessed via a larger-sized screen. We are the tool of choice for many serious budgeters as the extra screen real estate allows for the bigger picture to be conveyed and understood quicker. As such, casual or passive budgeters may not find our solution to suit their needs.
-
-Finally, we have a [developer API ](https://developers.lunchmoney.app)which you can use to create your own companion app in the meantime! 
+You can view a full list of tools and projects by the community [here](https://lunchmoney.dev/#awesome-projects).&#x20;
 
 ## How do I delete my account?
 
 There are a few ways to initiate the complete deletion of your account and all its data from our servers.
 
-First, there is a cancellation flow from the [Billing](https://my.lunchmoney.app/billing) page. 
+First, there is a cancellation flow from the [Billing](https://my.lunchmoney.app/billing) page.&#x20;
 
 Second, all accounts that are 5 days past their trial expiration dates which do not have any billing information associated will automatically be purged.
 
 Lastly, you can email us directly at support@lunchmoney.app and we'll delete your account within 24 hours.
-
