@@ -19,7 +19,7 @@ If automatic bank syncing is not available in your region, you may instead take 
 3. [Why am I not seeing any transactions for my brokerage/investment accounts?](automatic-imports.md#why-am-i-not-seeing-any-transactions-for-my-brokerage-investment-accounts)
 4. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
 5. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
-6. [How do I track transactions manually for a synced account?](automatic-imports.md#how-do-i-track-transactions-manually-for-a-synced-account)
+6. [How do I stop importing transactions for a synced account and only track manually?](automatic-imports.md#how-do-i-track-transactions-manually-for-a-synced-account)
 7. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
 
 ## Support for international banks
@@ -101,7 +101,7 @@ And then we periodically receive transactions and balance updates.
 
 We do not store, nor do we have access to the account holder's name or other personal information, or account routing numbers.
 
-### How do I track transactions manually for a synced account?
+### How do I stop importing transactions for a synced account and only track manually?
 
 If your transactions were automatically syncing with your bank, and something happened such as a service disruption, you can temporarily track transactions manually for a synced account.
 
@@ -114,6 +114,22 @@ Once you've made your selection, make sure you have the following selected to ke
 ### ![](<../.gitbook/assets/Screen Shot 2022-04-25 at 2.39.57 PM.png>)
 
 Once you've gone through this flow, you are able to treat this account as a manually-managed account and add transactions to it. The balance will automatically update, and you may also reconcile your balance at any point from the Accounts page.
+
+{% hint style="info" %}
+Note: this option makes it so that you stop attempting to sync this account automatically. If you'd like to continue automatic syncing of transactions, see the next FAQ.
+{% endhint %}
+
+### How do I manually insert transactions to fill in the gaps for my synced account?
+
+Are you automatically syncing new transactions for an account but you're missing historical transactions that you'd like to manually import, either via our CSV tool or developer API?
+
+First, create a new, temporary manually-managed account and import your transactions to this manual account.
+
+Next, click on the manually-managed account within the Accounts page, and locate the "Merge with synced account" option under Actions:
+
+![](../.gitbook/assets/screen-shot-2021-05-24-at-3.09.46-pm.png)
+
+This will merge your temporary manually-managed account and its transactions with the selected synced account. It's important to do this only for historical transactions because our system will not automatically detect or de-duplicate manual transactions with newly imported transactions.&#x20;
 
 ### I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?
 
