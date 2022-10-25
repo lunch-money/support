@@ -20,7 +20,8 @@ If automatic bank syncing is not available in your region, you may instead take 
 4. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
 5. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
 6. [How do I stop importing transactions for a synced account and only track manually?](automatic-imports.md#how-do-i-track-transactions-manually-for-a-synced-account)
-7. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
+7. [How do I manually insert historic transactions to fill in the gaps for my synced account?](automatic-imports.md#how-do-i-manually-insert-historic-transactions-to-fill-in-the-gaps-for-my-synced-account)
+8. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
 
 ## Support for international banks
 
@@ -119,7 +120,7 @@ Once you've gone through this flow, you are able to treat this account as a manu
 Note: this option makes it so that you stop attempting to sync this account automatically. If you'd like to continue automatic syncing of transactions, see the next FAQ.
 {% endhint %}
 
-### How do I manually insert transactions to fill in the gaps for my synced account?
+### How do I manually insert historic transactions to fill in the gaps for my synced account?
 
 Are you automatically syncing new transactions for an account but you're missing historical transactions that you'd like to manually import, either via our CSV tool or developer API?
 
