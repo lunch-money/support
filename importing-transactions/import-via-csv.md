@@ -43,6 +43,13 @@ For a fast and successful CSV import, we recommend that your file includes the f
   * See below.
 * Transaction notes (optional)
   * Header name: `notes`
+* Transaction categories (optional)
+  * Header name: `categories`
+  * You will be asked to match the imported category with a new or an existing Lunch Money category
+* Transaction tags (optional)
+  * Header name: `tags`
+  * Comma-separated list of tag names
+  * You will be asked to match each imported tag with a new or an existing Lunch Money tag
 
 #### Formats supported for transaction amounts
 
@@ -118,10 +125,6 @@ This is your chance to review the transactions you're about to import. If the da
 Hurrah! Your transactions have been imported. We did a best guess as to what your updated balance should be, but if we were off, you can enter the correct balance on this page.
 
 ## Troubleshooting
-
-### How can I import categories?
-
-We don't current support a way to import categories. This is because category names from your bank might not necessarily match your categories in Lunch Money easily. We'll be working on this feature soon, but in the meantime you can use Rules to help auto-categorize your transactions!
 
 ### I'm having issues with my CSV file.
 
