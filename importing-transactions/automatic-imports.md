@@ -1,7 +1,8 @@
 ---
 description: >-
   We support automatic imports from your bank via a third-party service, Plaid.
-  Currently, this feature is only available to most US and Canadian-based banks.
+  Currently, this feature is only available to most US and Canadian-based banks,
+  as well as a number of EU-based banks.
 ---
 
 # Automatic Imports
@@ -15,13 +16,14 @@ If automatic bank syncing is not available in your region, you may instead take 
 ## Frequently Asked Questions
 
 1. [I can't connect to my institution!](automatic-imports.md#i-cant-connect-to-my-institution)
-2. [Why does my account keep requiring me to relink/re-authenticate?](automatic-imports.md#why-does-my-account-keep-requiring-me-to-relink-re-authenticate)
-3. [Why am I not seeing any transactions for my brokerage/investment accounts?](automatic-imports.md#why-am-i-not-seeing-any-transactions-for-my-brokerage-investment-accounts)
-4. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
-5. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
-6. [How do I stop importing transactions for a synced account and only track manually?](automatic-imports.md#how-do-i-track-transactions-manually-for-a-synced-account)
-7. [How do I manually insert historic transactions to fill in the gaps for my synced account?](automatic-imports.md#how-do-i-manually-insert-historic-transactions-to-fill-in-the-gaps-for-my-synced-account)
-8. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
+2. [I'm having issues with my bank connection!](automatic-imports.md#im-having-issues-with-my-bank-connection)
+3. [Why does my account keep requiring me to relink/re-authenticate?](automatic-imports.md#why-does-my-account-keep-requiring-me-to-relink-re-authenticate)
+4. [Why am I not seeing any transactions for my brokerage/investment accounts?](automatic-imports.md#why-am-i-not-seeing-any-transactions-for-my-brokerage-investment-accounts)
+5. [My institution is not listed.](automatic-imports.md#my-institution-is-not-listed)
+6. [What information do you store when I sync my bank account?](automatic-imports.md#what-information-do-you-store-when-i-sync-my-bank-account)
+7. [How do I stop importing transactions for a synced account and only track manually?](automatic-imports.md#how-do-i-track-transactions-manually-for-a-synced-account)
+8. [How do I manually insert historic transactions to fill in the gaps for my synced account?](automatic-imports.md#how-do-i-manually-insert-historic-transactions-to-fill-in-the-gaps-for-my-synced-account)
+9. [I was tracking my transactions manually, and now I'm using bank syncing. How do I reconcile my transactions?](automatic-imports.md#i-was-tracking-my-transactions-manually-and-now-im-using-bank-syncing-how-do-i-reconcile-my-transactions)
 
 ## Support for international banks
 
@@ -33,7 +35,11 @@ Through our partnership with [Plaid](https://plaid.com), we currently support au
 * The Netherlands
 * Spain
 * Ireland
-* Germany (limited release)
+* Germany
+* Poland
+* Portugal
+* Sweden
+* Denmark
 
 In the meantime, we have a[ developer API](https://lunchmoney.dev) which we're hoping will bridge the gap between Lunch Money & international banks. We already have a few European banks supported via community-made open source plugins such as [bunq](https://github.com/markjongkind/bunq-to-lunchmoney) and [Monzo](https://github.com/joehoyle/monzo-to-lunch-money)!
 
@@ -41,13 +47,27 @@ We also highly recommend using our [CSV import tool](import-via-csv.md) which we
 
 ## Fetching the latest data
 
-Balance and transactions are fetched automatically when we receive a notice via webhook from your bank & Plaid (our third-party banking provider) that there are new transactions. On rare occasions, this webhook doesn't arrive or somewhere along the line, something hiccups and we don't fetch the latest. In this case, you can manually trigger a fetch from the Transactions page by clicking on the refresh icon:
+Balance and transactions are fetched automatically when we receive a notice via webhook from your bank & Plaid (our third-party banking provider) that there are new transactions. On rare occasions, this webhook doesn't arrive or somewhere along the line, something hiccups and we don't fetch the latest.&#x20;
 
-![](../.gitbook/assets/screen-shot-2020-04-09-at-4.26.48-pm.png)
+In this case, you can manually trigger a fetch from the [Overview](https://my.lunchmoney.app) page:
 
-This operation is also automatically triggered if you go to the Transactions page and we determine that it's been over 12 hours since we last fetch transactions for your accounts.
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 4.10.10 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
-You can get more information on when we last fetched transactions & balances for your accounts from the [Accounts](https://my.lunchmoney.app/accounts) page.
+and from the [Accounts](https://my.lunchmoney.app/accounts) page:
+
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 4.11.24 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Both operations will trigger a full fetch of all your synced accounts. This is a background process that usually finishes in under 1 minute.
+
+Note that you can also trigger a refresh from the [Transactions](https://my.lunchmoney.app/transactions) page, but that only fetches transactions for that particular month.
+
+You can get information on when we last fetched transactions & balances for your accounts from the [Accounts](https://my.lunchmoney.app/accounts) page. Hovering over the 'Last updated' timestamp will show two dates:&#x20;
+
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 4.13.06 PM.png" alt="" width="342"><figcaption></figcaption></figure>
+
+**Last fetch from server** indicates the last time we successfully pinged Plaid for the latest transactions. This may or may not result in new transactions being imported.
+
+**Last transaction update** indicates the last time we successfully imported new transactions from Plaid.
 
 ## Recovering revoked accounts
 
@@ -72,11 +92,21 @@ Do you have **2FA set up** on your account? If so, institutions requiring a new 
 
 Do you have multiple **secret questions & answers** set up? If so, it may require you to connect a few more times in order to collect all the answers to all the questions you have set up.
 
-For any other issues, feel free to reach out to support@lunchmoney.app or use the in-app "Submit a bug or feedback" button at the bottom right of every page.
+For any other issues, feel free to create a support ticket with us (see below). We're happy to help!
+
+### I'm having issues with my bank connection!
+
+We offer personalized support for all issues related to your bank connection. The easiest way to get help is by creating a support ticket from the Accounts page. Click on the account that you're having issues with, and select "I need help with this account". We'll walk you through creating a support ticket!
+
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 4.19.52 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Why does my account keep requiring me to relink/re-authenticate?
 
-This is most likely related to a multi-factor authentication setting that you have enabled with your bank. In general, Plaid can handle 2FA. However, if a bank requires a unique one-time password on every login or otherwise very frequently, then Plaid will have difficulty maintaining connection. We always suggest checking to see if your bank provides you with app passwords or a setting to enable trusted devices– those would help Plaid maintain the connection!
+There are many reasons for this and all of it depends on your bank! Some common causes are:
+
+* A multi-factor authentication setting that you have enabled with your bank. In general, Plaid can handle 2FA. However, if a bank requires a unique one-time password on every login or otherwise very frequently, then Plaid will have difficulty maintaining connection. We always suggest checking to see if your bank provides you with app passwords or a setting to enable trusted devices– those would help Plaid maintain the connection!
+* Some jurisdictions require banks to renew third-party access every 90 or 120 days for security purposes.
+* Plaid works directly with your bank and then wrangles the data to send downstream to apps like Lunch Money. This technology (both on your bank and Plaid's side) is far from perfect and hiccups along the way are not unheard of.&#x20;
 
 ### Why am I not seeing any transactions for my brokerage/investment accounts?
 
@@ -86,9 +116,11 @@ If you have automatically synced investment accounts that are supported for this
 
 ### My institution is not listed.
 
-Unfortunately, we don't have control over which institutions are supported by Plaid.&#x20;
+If your institution is not currently supported by Plaid, feel free to submit a support ticket to request it! If Plaid sees enough demand for an institution, they may prioritize it.&#x20;
 
-According to Plaid, they are not currently prioritizing new institution builds. Their recommendation is to reach out to your financial institution on their behalf and ask them to submit a contact request via [https://plaid.com/plaid-exchange/](https://plaid.com/plaid-exchange/) if they are interested in collaborating directly with Plaid on an API integration.
+To submit a request, click on 'Help' at the top left corner and select 'Submit a bug or feedback' and then 'Institution request for syncing':
+
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 4.28.05 PM.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### What information do you store when I sync my bank account?
 
@@ -112,7 +144,7 @@ Click on the account in question and scroll down in the side pop-up to where it 
 
 Once you've made your selection, make sure you have the following selected to keep all your existing data and to assign it to a new manually-managed asset. If you have an existing one that you want to use, you may also choose that one. We also recommend that you elect to keep your balance history (this is asked in the next screen).
 
-### ![](<../.gitbook/assets/Screen Shot 2022-04-25 at 2.39.57 PM.png>)
+<figure><img src="../.gitbook/assets/Screen Shot 2022-04-25 at 2.39.57 PM.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Once you've gone through this flow, you are able to treat this account as a manually-managed account and add transactions to it. The balance will automatically update, and you may also reconcile your balance at any point from the Accounts page.
 
@@ -120,7 +152,15 @@ Once you've gone through this flow, you are able to treat this account as a manu
 Note: this option makes it so that you stop attempting to sync this account automatically. If you'd like to continue automatic syncing of transactions, see the next FAQ.
 {% endhint %}
 
-### How do I manually insert historic transactions to fill in the gaps for my synced account?
+### How can I edit imported transactions or add transactions to my synced account?
+
+By default, we do not allow modifications to transactions for synced accounts. However, you can enable a setting to allow updating this information. This may be helpful if there were gaps in which syncing was broken, or if you find one or two transactions missing and you want to add these yourself.&#x20;
+
+This setting is on a per-account basis. Go to the Accounts page and click on the account for which you would like to allow modifications. Then enable the following setting under 'Advanced Settings':
+
+<figure><img src="../.gitbook/assets/Screen Shot 2023-09-27 at 4.31.39 PM.png" alt="" width="375"><figcaption></figcaption></figure>
+
+### How do I manually insert larger amounts of historic transactions to fill in the gaps for my synced account?
 
 Are you automatically syncing new transactions for an account but you're missing historical transactions that you'd like to manually import, either via our CSV tool or developer API?
 
